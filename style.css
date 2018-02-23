@@ -21,10 +21,12 @@ html, body {
 
   h1{
     font-size: 100px;
+    font-family: windsor;
+
+
   }
 
   h2{
-  font-family: futura;
   color: green;
 
   }
@@ -38,21 +40,20 @@ html, body {
     margin: .3em;
     text-decoration: none;
 
+
   }
 
   a:hover{
     color: black
+
   }
 
-img{
-  width: 100%;
-  height: 100%;
-}
 
-.personal-info {
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform: translateX(-50%) translateY(-50%);
+
+  .personal-info {
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
 
 }
